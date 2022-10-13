@@ -7,6 +7,7 @@ public class PlayerManager : MonoBehaviour
     public static PlayerManager instance;
 
     public GameObject player;
+    public PlayerController pc; 
     
     private void Awake() {
         if(instance == null)
